@@ -6,7 +6,7 @@ $(document).ready(function(){
         width = prompt("please enter a new sketch box width");
         height= prompt("please enter a new sketch box height");
         numbersBoxes = 960 / width;
-        boxes = '<div class="box" style="width: ' + width + 'px,' + 'height: ' + height + 'px"></div>';
+        boxes = '<div class="box" style="width: ' + width + 'px;' + 'height: ' + height + 'px"></div>';
         $("#divContainer").prepend(boxes.repeat(numbersBoxes));
     }
     
