@@ -8,9 +8,13 @@
 }
 h1{
   text-align: center;
+}
 #reset{
   display: block;
-  margin 0 auto;
+  margin: 0 auto;
   background-color: #7ac600;
   color: #fff;
+}
+#divContainer{
+  margin: 0 auto;
 }
