@@ -1,3 +1,8 @@
 .box{
+  display: inline-block;
   border: 1px solid #eee;
+}
+.box:hover{
+  background-color: #3399ff;
+  border: none;
 }
