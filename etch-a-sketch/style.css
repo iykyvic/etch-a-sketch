@@ -8,12 +8,9 @@
 }
 h1{
   text-align: center;
-}
-button{
+#reset{
   display: block;
   margin 0 auto;
   background-color: #7ac600;
   color: #fff;
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
