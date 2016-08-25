@@ -19,5 +19,7 @@ $(document).ready(function(){
         $(".box").remove();
         userInput();
     });
-    
+    $(".box").mouseover(function(e){
+        e.css("background-color: #3399ff;");
+    });
 });
