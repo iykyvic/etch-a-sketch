@@ -11,7 +11,7 @@ $(document).ready(function(){
         userInput();
     });
     var numbersBoxes = 960 / width;
-    var boxes = '<div class="box" style="height: ' + height + 'px"></div>';
+    var boxes = '<div class="box" style="width: ' + width + ',' + height: ' + height + 'px"></div>';
     $("#divContainer").prepend(boxes.repeat(numbersBoxes));
     
 });
